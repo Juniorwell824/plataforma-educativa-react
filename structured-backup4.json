@@ -1,0 +1,2145 @@
+{
+  "users": {
+    "9Z9WhMZQWNRrUeBfpa8RIQW7zYC3": {
+      "data": {
+        "nombre": "JUAN PEREZ",
+        "usuario": "JUANCHO",
+        "edad": 20,
+        "cedula": "0985457892",
+        "celular": "0985478962",
+        "año": "1",
+        "rol": "estudiante",
+        "penalizado": false,
+        "motivoPenalizacion": "",
+        "uid": "9Z9WhMZQWNRrUeBfpa8RIQW7zYC3",
+        "email": "JUAN@PEREZ.COM",
+        "fechaRegistro": "2026-01-05T05:16:21.357Z",
+        "añoSeleccionado": "1",
+        "ultimoAcceso": {
+          "_seconds": 1767590181,
+          "_nanoseconds": 0
+        },
+        "progreso": {
+          "año2": {
+            "completado": false,
+            "nivelesAprobados": 0,
+            "nivelesCompletados": 0,
+            "promedioPuntaje": 0,
+            "totalNiveles": 8
+          },
+          "año1": {
+            "nivelesCompletados": 0,
+            "promedioPuntaje": 0,
+            "completado": false,
+            "totalNiveles": 6,
+            "ultimaActualizacion": {
+              "_seconds": 1767590181,
+              "_nanoseconds": 0
+            },
+            "nivelesAprobados": 0
+          }
+        }
+      },
+      "subcollections": {
+        "progress": {
+          "año1": {
+            "userId": "9Z9WhMZQWNRrUeBfpa8RIQW7zYC3",
+            "totalTests": 6,
+            "mejorPuntaje": 0,
+            "peorPuntaje": 0,
+            "metadata": {
+              "actualizadoEL": {
+                "_seconds": 1767590181,
+                "_nanoseconds": 0
+              }
+            },
+            "tests": {},
+            "porcentaje": 0,
+            "promedioGeneral": 0,
+            "testsCompletados": 0,
+            "resumen": {
+              "completado": false,
+              "testsCompletados": 0,
+              "testsAprobados": 0,
+              "promedioGeneral": 0,
+              "mejorPuntaje": 0,
+              "peorPuntaje": 100,
+              "tiempoTotal": 0
+            },
+            "testsAprobados": 0
+          },
+          "año2": {
+            "userId": "9Z9WhMZQWNRrUeBfpa8RIQW7zYC3",
+            "año": 2,
+            "totalTests": 8,
+            "tests": {},
+            "resumen": {
+              "completado": false,
+              "testsCompletados": 0,
+              "testsAprobados": 0,
+              "promedioGeneral": 0,
+              "mejorPuntaje": 0,
+              "peorPuntaje": 100,
+              "tiempoTotal": 0
+            },
+            "metadata": {
+              "creadoEl": {
+                "_seconds": 1767590181,
+                "_nanoseconds": 0
+              },
+              "actualizadoEl": {
+                "_seconds": 1767590181,
+                "_nanoseconds": 0
+              }
+            },
+            "fechaCreacion": {
+              "_seconds": 1767590181,
+              "_nanoseconds": 0
+            }
+          }
+        }
+      }
+    },
+    "9vvQ64BamBan5iSBf7m5VkwsbJM2": {
+      "data": {
+        "nombre": "Joel Anthony torres",
+        "usuario": "JATU",
+        "edad": 19,
+        "cedula": "0958897795",
+        "celular": "0994494027",
+        "año": "1",
+        "rol": "estudiante",
+        "penalizado": false,
+        "motivoPenalizacion": "",
+        "uid": "9vvQ64BamBan5iSBf7m5VkwsbJM2",
+        "email": "jatu119775@gmail.com",
+        "fechaRegistro": "2026-01-04T01:09:13.142Z",
+        "añoSeleccionado": "1",
+        "ultimoAcceso": {
+          "_seconds": 1767591005,
+          "_nanoseconds": 190000000
+        },
+        "progreso": {
+          "año2": {
+            "completado": false,
+            "nivelesAprobados": 0,
+            "nivelesCompletados": 0,
+            "promedioPuntaje": 0,
+            "totalNiveles": 8
+          },
+          "año1": {
+            "completado": true,
+            "totalNiveles": 6,
+            "nivelesCompletados": 6,
+            "nivelesAprobados": 0,
+            "promedioPuntaje": 60,
+            "modulosAprobados": [],
+            "ultimaActualizacion": {
+              "_seconds": 1767591005,
+              "_nanoseconds": 190000000
+            }
+          }
+        }
+      },
+      "subcollections": {
+        "progress": {
+          "año1": {
+            "userId": "9vvQ64BamBan5iSBf7m5VkwsbJM2",
+            "totalTests": 6,
+            "mejorPuntaje": 100,
+            "testsCompletados": 6,
+            "promedioGeneral": 60,
+            "resumen": {
+              "completado": true,
+              "testsCompletados": 6,
+              "testsAprobados": 3,
+              "promedioGeneral": 60,
+              "mejorPuntaje": 100,
+              "peorPuntaje": 0,
+              "tiempoTotal": 0
+            },
+            "peorPuntaje": 0,
+            "testsAprobados": 3,
+            "metadata": {
+              "actualizadoEL": {
+                "_seconds": 1767591005,
+                "_nanoseconds": 190000000
+              }
+            },
+            "tests": {
+              "test_soporte_001": {
+                "moduloNombreCompleto": "Soporte Técnico",
+                "moduloNombre": "soporte_tecnico",
+                "puntajeObtenido": 3,
+                "totalPreguntas": 5,
+                "aprobado": false,
+                "preguntas": {
+                  "q4": {
+                    "respuestaCorrecta": "1",
+                    "idPregunta": "q4",
+                    "id": "q4",
+                    "idModulo": "modulo2",
+                    "esCorrecta": false,
+                    "respuestaUsuario": "0",
+                    "puntaje": 0
+                  },
+                  "q1": {
+                    "puntaje": 1,
+                    "idPregunta": "q1",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "respuestaUsuario": "1",
+                    "id": "q1",
+                    "idModulo": "modulo2"
+                  },
+                  "q2": {
+                    "id": "q2",
+                    "respuestaCorrecta": "1",
+                    "puntaje": 1,
+                    "idModulo": "modulo2",
+                    "esCorrecta": true,
+                    "respuestaUsuario": "1",
+                    "idPregunta": "q2"
+                  },
+                  "q5": {
+                    "puntaje": 0,
+                    "respuestaUsuario": "0",
+                    "idPregunta": "q5",
+                    "id": "q5",
+                    "respuestaCorrecta": "1",
+                    "idModulo": "modulo2",
+                    "esCorrecta": false
+                  },
+                  "q3": {
+                    "esCorrecta": true,
+                    "respuestaUsuario": "1",
+                    "id": "q3",
+                    "respuestaCorrecta": "1",
+                    "puntaje": 1,
+                    "idPregunta": "q3",
+                    "idModulo": "modulo2"
+                  }
+                },
+                "porcentaje": 60,
+                "id": "test_soporte_001",
+                "moduloId": "modulo2",
+                "fechaCompletado": {
+                  "_seconds": 1767551568,
+                  "_nanoseconds": 609000000
+                }
+              },
+              "test_so_001": {
+                "moduloNombre": "sistema_operativo",
+                "moduloNombreCompleto": "Sistema Operativo",
+                "aprobado": true,
+                "id": "test_so_001",
+                "moduloId": "modulo3",
+                "totalPreguntas": 5,
+                "preguntas": {
+                  "q4": {
+                    "idPregunta": "q4",
+                    "respuestaCorrecta": "1",
+                    "puntaje": 1,
+                    "esCorrecta": true,
+                    "id": "q4",
+                    "idModulo": "modulo3",
+                    "respuestaUsuario": "1"
+                  },
+                  "q3": {
+                    "esCorrecta": true,
+                    "respuestaUsuario": "1",
+                    "idPregunta": "q3",
+                    "idModulo": "modulo3",
+                    "respuestaCorrecta": "1",
+                    "id": "q3",
+                    "puntaje": 1
+                  },
+                  "q5": {
+                    "respuestaCorrecta": "1",
+                    "respuestaUsuario": "1",
+                    "id": "q5",
+                    "esCorrecta": true,
+                    "idModulo": "modulo3",
+                    "puntaje": 1,
+                    "idPregunta": "q5"
+                  },
+                  "q1": {
+                    "idPregunta": "q1",
+                    "id": "q1",
+                    "puntaje": 1,
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "respuestaUsuario": "1",
+                    "idModulo": "modulo3"
+                  },
+                  "q2": {
+                    "puntaje": 1,
+                    "respuestaUsuario": "1",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "idPregunta": "q2",
+                    "idModulo": "modulo3",
+                    "id": "q2"
+                  }
+                },
+                "puntajeObtenido": 5,
+                "porcentaje": 100,
+                "fechaCompletado": {
+                  "_seconds": 1767551568,
+                  "_nanoseconds": 609000000
+                }
+              },
+              "test_inter_001": {
+                "id": "test_inter_001",
+                "moduloId": "modulo5",
+                "moduloNombre": "internet_seguro",
+                "moduloNombreCompleto": "Internet Seguro",
+                "totalPreguntas": 5,
+                "puntajeObtenido": 2,
+                "porcentaje": 40,
+                "aprobado": false,
+                "preguntas": {
+                  "q1": {
+                    "id": "q1",
+                    "idPregunta": "q1",
+                    "idModulo": "modulo5",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  },
+                  "q2": {
+                    "id": "q2",
+                    "idPregunta": "q2",
+                    "idModulo": "modulo5",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "puntaje": 1
+                  },
+                  "q3": {
+                    "id": "q3",
+                    "idPregunta": "q3",
+                    "idModulo": "modulo5",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "puntaje": 1
+                  },
+                  "q4": {
+                    "id": "q4",
+                    "idPregunta": "q4",
+                    "idModulo": "modulo5",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  },
+                  "q5": {
+                    "id": "q5",
+                    "idPregunta": "q5",
+                    "idModulo": "modulo5",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  }
+                },
+                "fechaCompletado": {
+                  "_seconds": 1767584214,
+                  "_nanoseconds": 135000000
+                }
+              },
+              "test_prog_001": {
+                "id": "test_prog_001",
+                "moduloId": "modulo6",
+                "moduloNombre": "programacion_basica",
+                "moduloNombreCompleto": "Programación Básica",
+                "totalPreguntas": 6,
+                "puntajeObtenido": 6,
+                "porcentaje": 100,
+                "aprobado": true,
+                "preguntas": {
+                  "q1": {
+                    "id": "q1",
+                    "idPregunta": "q1",
+                    "idModulo": "modulo6",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "puntaje": 1
+                  },
+                  "q2": {
+                    "id": "q2",
+                    "idPregunta": "q2",
+                    "idModulo": "modulo6",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "puntaje": 1
+                  },
+                  "q3": {
+                    "id": "q3",
+                    "idPregunta": "q3",
+                    "idModulo": "modulo6",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "puntaje": 1
+                  },
+                  "q4": {
+                    "id": "q4",
+                    "idPregunta": "q4",
+                    "idModulo": "modulo6",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "puntaje": 1
+                  },
+                  "q5": {
+                    "id": "q5",
+                    "idPregunta": "q5",
+                    "idModulo": "modulo6",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "puntaje": 1
+                  },
+                  "q6": {
+                    "id": "q6",
+                    "idPregunta": "q6",
+                    "idModulo": "modulo6",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": true,
+                    "puntaje": 1
+                  }
+                },
+                "fechaCompletado": {
+                  "_seconds": 1767584387,
+                  "_nanoseconds": 590000000
+                }
+              },
+              "test_intro_001": {
+                "id": "test_intro_001",
+                "moduloId": "modulo1",
+                "moduloNombre": "introduccion_informatica",
+                "moduloNombreCompleto": "Módulo 1",
+                "totalPreguntas": 5,
+                "puntajeObtenido": 0,
+                "porcentaje": 0,
+                "aprobado": false,
+                "preguntas": {
+                  "q1": {
+                    "id": "q1",
+                    "idPregunta": "q1",
+                    "idModulo": "modulo1",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  },
+                  "q2": {
+                    "id": "q2",
+                    "idPregunta": "q2",
+                    "idModulo": "modulo1",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  },
+                  "q3": {
+                    "id": "q3",
+                    "idPregunta": "q3",
+                    "idModulo": "modulo1",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  },
+                  "q4": {
+                    "id": "q4",
+                    "idPregunta": "q4",
+                    "idModulo": "modulo1",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  },
+                  "q5": {
+                    "id": "q5",
+                    "idPregunta": "q5",
+                    "idModulo": "modulo1",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  }
+                },
+                "fechaCompletado": {
+                  "_seconds": 1767591005,
+                  "_nanoseconds": 190000000
+                }
+              }
+            }
+          },
+          "año2": {
+            "userId": "9vvQ64BamBan5iSBf7m5VkwsbJM2",
+            "año": 2,
+            "totalTests": 8,
+            "tests": {},
+            "resumen": {
+              "completado": false,
+              "testsCompletados": 0,
+              "testsAprobados": 0,
+              "promedioGeneral": 0,
+              "mejorPuntaje": 0,
+              "peorPuntaje": 100,
+              "tiempoTotal": 0
+            },
+            "metadata": {
+              "creadoEl": {
+                "_seconds": 1767488952,
+                "_nanoseconds": 931000000
+              },
+              "actualizadoEl": {
+                "_seconds": 1767488952,
+                "_nanoseconds": 931000000
+              }
+            },
+            "fechaCreacion": {
+              "_seconds": 1767488952,
+              "_nanoseconds": 931000000
+            }
+          }
+        }
+      }
+    },
+    "9zf3w1jrZBd4w9BuGfg6QMbqwT63": {
+      "data": {
+        "nombre": "MARIELA MOREIRA",
+        "usuario": "MMOREIRA",
+        "edad": 21,
+        "cedula": "0123456789",
+        "celular": "1234567890",
+        "año": "2",
+        "rol": "estudiante",
+        "penalizado": false,
+        "motivoPenalizacion": "",
+        "uid": "9zf3w1jrZBd4w9BuGfg6QMbqwT63",
+        "email": "mmariela@abc.com",
+        "fechaRegistro": "2026-01-08T16:39:28.944Z",
+        "añoSeleccionado": "2",
+        "ultimoAcceso": {
+          "_seconds": 1767890368,
+          "_nanoseconds": 0
+        },
+        "progreso": {
+          "año2": {
+            "completado": false,
+            "nivelesAprobados": 0,
+            "nivelesCompletados": 0,
+            "promedioPuntaje": 0,
+            "totalNiveles": 8
+          },
+          "año1": {
+            "nivelesCompletados": 0,
+            "promedioPuntaje": 0,
+            "totalNiveles": 6,
+            "ultimaActualizacion": {
+              "_seconds": 1767890368,
+              "_nanoseconds": 0
+            },
+            "nivelesAprobados": 0,
+            "completado": true
+          }
+        }
+      },
+      "subcollections": {
+        "progress": {
+          "año1": {
+            "userId": "9zf3w1jrZBd4w9BuGfg6QMbqwT63",
+            "totalTests": 6,
+            "mejorPuntaje": 0,
+            "peorPuntaje": 0,
+            "metadata": {
+              "actualizadoEL": {
+                "_seconds": 1767890368,
+                "_nanoseconds": 0
+              }
+            },
+            "tests": {},
+            "porcentaje": 0,
+            "promedioGeneral": 0,
+            "testsCompletados": 0,
+            "resumen": {
+              "completado": false,
+              "testsCompletados": 0,
+              "testsAprobados": 0,
+              "promedioGeneral": 0,
+              "mejorPuntaje": 0,
+              "peorPuntaje": 100,
+              "tiempoTotal": 0
+            },
+            "testsAprobados": 0
+          },
+          "año2": {
+            "userId": "9zf3w1jrZBd4w9BuGfg6QMbqwT63",
+            "año": 2,
+            "totalTests": 8,
+            "tests": {},
+            "resumen": {
+              "completado": false,
+              "testsCompletados": 0,
+              "testsAprobados": 0,
+              "promedioGeneral": 0,
+              "mejorPuntaje": 0,
+              "peorPuntaje": 100,
+              "tiempoTotal": 0
+            },
+            "metadata": {
+              "creadoEl": {
+                "_seconds": 1767890368,
+                "_nanoseconds": 0
+              },
+              "actualizadoEl": {
+                "_seconds": 1767890368,
+                "_nanoseconds": 0
+              }
+            },
+            "fechaCreacion": {
+              "_seconds": 1767890368,
+              "_nanoseconds": 0
+            }
+          }
+        }
+      }
+    },
+    "Auto-ID": {
+      "data": {
+        "email": "admin@sysscholar.com",
+        "nombre": "Administrador",
+        "rol": "admin",
+        "fechaRegistro": {
+          "_seconds": 1767300784,
+          "_nanoseconds": 27000000
+        }
+      },
+      "subcollections": {
+        "progress": {}
+      }
+    },
+    "L6IABBoQJCUw8JJ3MLkWqE7NJWh2": {
+      "data": {
+        "nombre": "Administrador Principal",
+        "usuario": "admin_sys",
+        "edad": 35,
+        "cedula": "1234567890",
+        "celular": "0991234567",
+        "año": "1",
+        "rol": "admin",
+        "motivoPenalizacion": "",
+        "fotoURL": "https://ui-avatars.com/api/?name=Admin+Sys&background=30297A&color=fff",
+        "uid": "L6IABBoQJCUw8JJ3MLkWqE7NJWh2",
+        "email": "admin@sysscholar.com",
+        "añoSeleccionado": "1",
+        "penalizado": false,
+        "progreso": {
+          "año2": {
+            "totalNiveles": 6,
+            "completado": true,
+            "nivelesCompletados": 6
+          },
+          "año1": {
+            "totalNiveles": 5,
+            "completado": true,
+            "nivelesCompletados": 5
+          }
+        },
+        "fechaRegistro": {
+          "_seconds": 1768108814,
+          "_nanoseconds": 130000000
+        },
+        "ultimoAcceso": {
+          "_seconds": 1768108814,
+          "_nanoseconds": 130000000
+        }
+      },
+      "subcollections": {
+        "progress": {}
+      }
+    },
+    "bleAr4HuXFd4DFcXgcPVS41PCCA2": {
+      "data": {
+        "nombre": "Juan Pérez Demo",
+        "usuario": "juan_perez",
+        "edad": 22,
+        "cedula": "0987654321",
+        "celular": "0999876543",
+        "año": "1",
+        "rol": "estudiante",
+        "penalizado": false,
+        "motivoPenalizacion": "",
+        "fotoURL": "https://ui-avatars.com/api/?name=Juan+Perez&background=2563eb&color=fff",
+        "progreso": {
+          "año1": {
+            "completado": false,
+            "nivelesCompletados": 2,
+            "totalNiveles": 5
+          },
+          "año2": {
+            "completado": false,
+            "nivelesCompletados": 0,
+            "totalNiveles": 6
+          }
+        },
+        "uid": "bleAr4HuXFd4DFcXgcPVS41PCCA2",
+        "email": "estudiante@sysscholar.com",
+        "fechaRegistro": {
+          "_seconds": 1768108816,
+          "_nanoseconds": 781000000
+        },
+        "ultimoAcceso": {
+          "_seconds": 1768108816,
+          "_nanoseconds": 781000000
+        }
+      },
+      "subcollections": {
+        "progress": {}
+      }
+    },
+    "iSDMsnf5pQVcjkFYcNys2AmjeH63": {
+      "data": {
+        "nombre": "Saul torres",
+        "usuario": "Saul24",
+        "edad": 24,
+        "cedula": "0955246947",
+        "celular": "0960856963",
+        "año": "2",
+        "rol": "estudiante",
+        "uid": "iSDMsnf5pQVcjkFYcNys2AmjeH63",
+        "email": "saultor19@gmail.com",
+        "fechaRegistro": "2026-01-11T04:59:18.213Z",
+        "añoSeleccionado": "1",
+        "motivoPenalizacion": "Penalizado por administrador",
+        "penalizado": true,
+        "ultimoAcceso": {
+          "_seconds": 1768110103,
+          "_nanoseconds": 660000000
+        },
+        "progreso": {
+          "año2": {
+            "completado": false,
+            "nivelesAprobados": 0,
+            "nivelesCompletados": 0,
+            "promedioPuntaje": 0,
+            "totalNiveles": 8
+          },
+          "año1": {
+            "nivelesCompletados": 1,
+            "completado": false,
+            "nivelesAprobados": 0,
+            "modulosAprobados": [],
+            "totalNiveles": 6,
+            "promedioPuntaje": 0,
+            "ultimaActualizacion": {
+              "_seconds": 1768110103,
+              "_nanoseconds": 660000000
+            }
+          }
+        }
+      },
+      "subcollections": {
+        "progress": {
+          "año1": {
+            "userId": "iSDMsnf5pQVcjkFYcNys2AmjeH63",
+            "totalTests": 6,
+            "mejorPuntaje": 0,
+            "peorPuntaje": 0,
+            "porcentaje": 0,
+            "promedioGeneral": 0,
+            "testsAprobados": 0,
+            "testsCompletados": 1,
+            "resumen": {
+              "completado": false,
+              "testsCompletados": 1,
+              "testsAprobados": 0,
+              "promedioGeneral": 0,
+              "mejorPuntaje": 0,
+              "peorPuntaje": 0,
+              "tiempoTotal": 0
+            },
+            "metadata": {
+              "actualizadoEL": {
+                "_seconds": 1768110103,
+                "_nanoseconds": 660000000
+              }
+            },
+            "tests": {
+              "test_intro_001": {
+                "id": "test_intro_001",
+                "moduloId": "modulo1",
+                "moduloNombre": "introduccion_informatica",
+                "moduloNombreCompleto": "Módulo 1",
+                "totalPreguntas": 5,
+                "puntajeObtenido": 0,
+                "porcentaje": 0,
+                "aprobado": false,
+                "preguntas": {
+                  "q1": {
+                    "id": "q1",
+                    "idPregunta": "q1",
+                    "idModulo": "modulo1",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  },
+                  "q2": {
+                    "id": "q2",
+                    "idPregunta": "q2",
+                    "idModulo": "modulo1",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  },
+                  "q3": {
+                    "id": "q3",
+                    "idPregunta": "q3",
+                    "idModulo": "modulo1",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  },
+                  "q4": {
+                    "id": "q4",
+                    "idPregunta": "q4",
+                    "idModulo": "modulo1",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  },
+                  "q5": {
+                    "id": "q5",
+                    "idPregunta": "q5",
+                    "idModulo": "modulo1",
+                    "respuestaUsuario": "0",
+                    "respuestaCorrecta": "1",
+                    "esCorrecta": false,
+                    "puntaje": 0
+                  }
+                },
+                "fechaCompletado": {
+                  "_seconds": 1768110103,
+                  "_nanoseconds": 660000000
+                }
+              }
+            }
+          },
+          "año2": {
+            "userId": "iSDMsnf5pQVcjkFYcNys2AmjeH63",
+            "año": 2,
+            "totalTests": 8,
+            "tests": {},
+            "resumen": {
+              "completado": false,
+              "testsCompletados": 0,
+              "testsAprobados": 0,
+              "promedioGeneral": 0,
+              "mejorPuntaje": 0,
+              "peorPuntaje": 100,
+              "tiempoTotal": 0
+            },
+            "metadata": {
+              "creadoEl": {
+                "_seconds": 1768107558,
+                "_nanoseconds": 0
+              },
+              "actualizadoEl": {
+                "_seconds": 1768107558,
+                "_nanoseconds": 0
+              }
+            },
+            "fechaCreacion": {
+              "_seconds": 1768107558,
+              "_nanoseconds": 0
+            }
+          }
+        }
+      }
+    }
+  },
+  "modules": {
+    "1ro_modulo_1": {
+      "titulo": "Introducción a la Informática",
+      "contenido": "<h3>¿Qué es la informática?</h3><p>La informática es la ciencia que estudia el tratamiento automático de la información mediante computadoras.</p><h3>Componentes principales:</h3><ul><li>Hardware: partes físicas</li><li>Software: programas y aplicaciones</li><li>Personas: usuarios y técnicos</li></ul>",
+      "dificultad": "básico",
+      "descripcion": "Conceptos básicos de informática y sus aplicaciones",
+      "puntajeMinimo": 70,
+      "habilitado": true,
+      "orden": 1,
+      "año": "1ro",
+      "metadata": {
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 627000000
+        },
+        "creadorId": "system"
+      },
+      "preguntas": [
+        {
+          "pregunta": "¿Cuál es la función del soporte técnico?",
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "id": 1,
+          "opciones": [
+            "Navegar en internet",
+            "Resolver problemas técnicos",
+            "Crear documentos"
+          ]
+        },
+        {
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Qué es un sistema operativo?",
+          "id": 2,
+          "opciones": [
+            "Un hardware",
+            "Software que controla el equipo",
+            "Un virus"
+          ],
+          "puntos": 20
+        },
+        {
+          "opciones": [
+            "Word",
+            "Linux",
+            "BIOS"
+          ],
+          "tipo": "opción_multiple",
+          "respuestaCorrecta": 0,
+          "pregunta": "¿Cuál es un programa de ofimática?",
+          "puntos": 20,
+          "id": 3
+        },
+        {
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Qué práctica es segura en internet?",
+          "tipo": "opción_multiple",
+          "id": 4,
+          "puntos": 20,
+          "opciones": [
+            "Compartir contraseñas",
+            "Proteger datos personales",
+            "Abrir enlaces desconocidos"
+          ]
+        },
+        {
+          "opciones": [
+            "Reparar computadoras",
+            "Lógica y estructuras de código",
+            "Usar Word"
+          ],
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Qué se aprende en programación básica?",
+          "tipo": "opción_multiple",
+          "id": 5
+        }
+      ],
+      "tiempoLimite": 1800,
+      "duracionEstimada": 60,
+      "id": "1ro_modulo_1"
+    },
+    "1ro_modulo_2": {
+      "metadata": {
+        "creadorId": "system",
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 627000000
+        }
+      },
+      "titulo": "Soporte Técnico",
+      "habilitado": true,
+      "puntajeMinimo": 70,
+      "descripcion": "Conceptos de soporte técnico y resolución de problemas",
+      "id": "1ro_modulo_2",
+      "tiempoLimite": 1800,
+      "orden": 2,
+      "año": "1ro",
+      "contenido": "<h3>¿Qué es el Soporte Técnico?</h3><p>Es el área de la informática encargada de brindar asistencia, mantenimiento y solución de problemas relacionados con equipos de cómputo, software, redes y sistemas tecnológicos.</p><h3>Tipos de mantenimiento:</h3><ul><li>Preventivo: evita fallas futuras</li><li>Correctivo: repara fallas existentes</li></ul>",
+      "duracionEstimada": 60,
+      "preguntas": [
+        {
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Cuál es la principal función del soporte técnico?",
+          "tipo": "opción_multiple",
+          "id": 1,
+          "puntos": 20,
+          "opciones": [
+            "Crear programas informáticos",
+            "Solucionar problemas tecnológicos",
+            "Diseñar páginas web"
+          ]
+        },
+        {
+          "opciones": [
+            "Mantenimiento preventivo",
+            "Mantenimiento correctivo",
+            "Mantenimiento estético"
+          ],
+          "puntos": 20,
+          "tipo": "opción_multiple",
+          "id": 2,
+          "respuestaCorrecta": 0,
+          "pregunta": "¿Qué tipo de mantenimiento busca prevenir fallas futuras?"
+        },
+        {
+          "id": 3,
+          "opciones": [
+            "Programar videojuegos",
+            "Instalar y actualizar software",
+            "Diseñar logos"
+          ],
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Cuál de las siguientes acciones corresponde al soporte técnico?",
+          "puntos": 20,
+          "tipo": "opción_multiple"
+        },
+        {
+          "tipo": "opción_multiple",
+          "id": 4,
+          "puntos": 20,
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "Para proteger la información del usuario",
+            "Para hacer más lento el sistema",
+            "Para eliminar programas útiles"
+          ],
+          "pregunta": "¿Por qué es importante la seguridad en el soporte técnico?"
+        },
+        {
+          "opciones": [
+            "Dibujar bien",
+            "Analizar y resolver problemas",
+            "Jugar videojuegos"
+          ],
+          "tipo": "opción_multiple",
+          "id": 5,
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Qué habilidad es fundamental en un técnico de soporte?"
+        }
+      ],
+      "dificultad": "básico"
+    },
+    "1ro_modulo_3": {
+      "puntajeMinimo": 70,
+      "id": "1ro_modulo_3",
+      "metadata": {
+        "creadorId": "system",
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 627000000
+        }
+      },
+      "orden": 3,
+      "tiempoLimite": 1800,
+      "dificultad": "básico",
+      "duracionEstimada": 60,
+      "contenido": "<h3>¿Qué es un Sistema Operativo?</h3><p>Es el software principal de una computadora que se encarga de administrar el hardware, ejecutar programas y permitir la interacción entre el usuario y el equipo.</p><h3>Funciones principales:</h3><ul><li>Gestión de procesos</li><li>Gestión de memoria</li><li>Control de dispositivos</li><li>Interfaz de usuario</li></ul>",
+      "descripcion": "Funciones y características de los sistemas operativos",
+      "preguntas": [
+        {
+          "opciones": [
+            "Crear documentos",
+            "Administrar hardware y software",
+            "Conectarse a internet"
+          ],
+          "pregunta": "¿Cuál es la función principal de un sistema operativo?",
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple",
+          "id": 1,
+          "puntos": 20
+        },
+        {
+          "respuestaCorrecta": 0,
+          "puntos": 20,
+          "id": 2,
+          "opciones": [
+            "Procesamiento por lotes",
+            "Juegos en línea",
+            "Redes sociales"
+          ],
+          "tipo": "opción_multiple",
+          "pregunta": "¿Cuál fue una de las primeras funciones de los sistemas operativos?"
+        },
+        {
+          "opciones": [
+            "Interfaz gráfica",
+            "Multitarea",
+            "Antivirus"
+          ],
+          "pregunta": "¿Qué característica permite ejecutar varios programas al mismo tiempo?",
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "id": 3
+        },
+        {
+          "pregunta": "¿Qué elemento protege la información del usuario?",
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "id": 4,
+          "opciones": [
+            "Seguridad y permisos",
+            "El monitor",
+            "La memoria RAM"
+          ]
+        },
+        {
+          "id": 5,
+          "opciones": [
+            "El diseño del escritorio",
+            "La ejecución de programas y recursos",
+            "El acceso a internet"
+          ],
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Qué controla la gestión de procesos?"
+        }
+      ],
+      "titulo": "Sistema Operativo",
+      "habilitado": true,
+      "año": "1ro"
+    },
+    "1ro_modulo_4": {
+      "titulo": "Ofimática Básica",
+      "preguntas": [
+        {
+          "pregunta": "¿Cuál fue el principal motivo del surgimiento de la ofimática?",
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "opciones": [
+            "Crear videojuegos",
+            "Automatizar tareas administrativas",
+            "Reemplazar internet"
+          ],
+          "id": 1,
+          "tipo": "opción_multiple"
+        },
+        {
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Qué característica diferencia a la ofimática del trabajo manual?",
+          "id": 2,
+          "puntos": 20,
+          "opciones": [
+            "Rapidez y facilidad de edición",
+            "Uso exclusivo de papel",
+            "Falta de organización"
+          ]
+        },
+        {
+          "respuestaCorrecta": 1,
+          "id": 3,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Cuál de estas tareas se realiza mejor con una hoja de cálculo?",
+          "puntos": 20,
+          "opciones": [
+            "Redactar cartas",
+            "Analizar datos numéricos",
+            "Diseñar sistemas operativos"
+          ]
+        },
+        {
+          "respuestaCorrecta": 1,
+          "opciones": [
+            "Solo sirve para trabajar",
+            "Desarrolla habilidades digitales",
+            "Elimina el estudio"
+          ],
+          "tipo": "opción_multiple",
+          "id": 4,
+          "pregunta": "¿Por qué la ofimática es importante en la educación?",
+          "puntos": 20
+        },
+        {
+          "puntos": 20,
+          "id": 5,
+          "tipo": "opción_multiple",
+          "opciones": [
+            "Pérdida de información",
+            "Mayor productividad",
+            "Mejor organización"
+          ],
+          "respuestaCorrecta": 0,
+          "pregunta": "¿Cuál es una consecuencia del mal uso de herramientas ofimáticas?"
+        }
+      ],
+      "puntajeMinimo": 70,
+      "tiempoLimite": 1800,
+      "orden": 4,
+      "dificultad": "básico",
+      "descripcion": "Herramientas ofimáticas para la creación y organización de información",
+      "id": "1ro_modulo_4",
+      "duracionEstimada": 60,
+      "habilitado": true,
+      "metadata": {
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 627000000
+        },
+        "creadorId": "system"
+      },
+      "contenido": "<h3>¿Qué es la ofimática?</h3><p>Es el conjunto de herramientas informáticas que permiten crear, editar, organizar y almacenar información de forma digital, facilitando el trabajo académico, administrativo y profesional.</p><h3>Herramientas principales:</h3><ul><li>Procesadores de texto (Word, Google Docs)</li><li>Hojas de cálculo (Excel, Google Sheets)</li><li>Presentaciones (PowerPoint, Google Slides)</li></ul>",
+      "año": "1ro"
+    },
+    "1ro_modulo_5": {
+      "descripcion": "Prácticas seguras para el uso responsable de internet",
+      "orden": 5,
+      "habilitado": true,
+      "duracionEstimada": 60,
+      "id": "1ro_modulo_5",
+      "año": "1ro",
+      "metadata": {
+        "creadorId": "system",
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 627000000
+        }
+      },
+      "titulo": "Internet Seguro",
+      "contenido": "<h3>¿Qué es el Internet Seguro?</h3><p>Se refiere al uso responsable, consciente y protegido de las tecnologías digitales, con el objetivo de prevenir riesgos como fraudes, robo de información, acoso digital y pérdida de privacidad.</p><h3>Conceptos clave:</h3><ul><li>Privacidad digital</li><li>Huella digital</li><li>Contraseñas seguras</li><li>Phishing y fraudes</li></ul>",
+      "tiempoLimite": 1800,
+      "puntajeMinimo": 70,
+      "dificultad": "básico",
+      "preguntas": [
+        {
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "id": 1,
+          "opciones": [
+            "Porque se borra automáticamente",
+            "Porque la información publicada puede permanecer en internet",
+            "Porque solo la ve el dueño de la cuenta"
+          ],
+          "pregunta": "¿Por qué la huella digital puede afectar el futuro de una persona?",
+          "tipo": "opción_multiple"
+        },
+        {
+          "puntos": 20,
+          "tipo": "opción_multiple",
+          "id": 2,
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "Usar contraseñas seguras y no compartirlas",
+            "Publicar datos personales",
+            "Aceptar a cualquier persona en redes sociales"
+          ],
+          "pregunta": "¿Cuál es una acción correcta para proteger la privacidad?"
+        },
+        {
+          "opciones": [
+            "Robo de información o virus",
+            "Mejora el rendimiento del equipo",
+            "No existe ningún riesgo"
+          ],
+          "puntos": 20,
+          "id": 3,
+          "pregunta": "¿Qué riesgo existe al abrir enlaces desconocidos?",
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple"
+        },
+        {
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "opciones": [
+            "Comunicación segura entre computadoras",
+            "Redes sociales",
+            "Juegos en línea"
+          ],
+          "id": 4,
+          "pregunta": "¿Cuál fue el objetivo inicial del internet?"
+        },
+        {
+          "id": 5,
+          "opciones": [
+            "Cuidar la información personal y respetar a los demás",
+            "Compartir todo sin pensar",
+            "Usarlo solo para entretenimiento"
+          ],
+          "puntos": 20,
+          "pregunta": "¿Qué demuestra un uso responsable de internet?",
+          "tipo": "opción_multiple",
+          "respuestaCorrecta": 0
+        }
+      ]
+    },
+    "1ro_modulo_6": {
+      "habilitado": true,
+      "dificultad": "básico",
+      "metadata": {
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 627000000
+        },
+        "creadorId": "system"
+      },
+      "descripcion": "Fundamentos de programación y lógica computacional",
+      "tiempoLimite": 1800,
+      "duracionEstimada": 60,
+      "puntajeMinimo": 70,
+      "año": "1ro",
+      "contenido": "<h3>¿Qué es la programación básica?</h3><p>Es el conjunto de conocimientos iniciales que permiten a una persona crear instrucciones para que una computadora realice tareas específicas de forma lógica y ordenada.</p><h3>Conceptos fundamentales:</h3><ul><li>Algoritmos</li><li>Variables</li><li>Estructuras de control</li><li>Lógica computacional</li></ul>",
+      "titulo": "Programación Básica",
+      "id": "1ro_modulo_6",
+      "orden": 6,
+      "preguntas": [
+        {
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "opciones": [
+            "Usar la computadora",
+            "Dar instrucciones para resolver problemas",
+            "Reparar hardware"
+          ],
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Cuál es el objetivo principal de la programación?",
+          "id": 1
+        },
+        {
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Qué es un algoritmo?",
+          "id": 2,
+          "opciones": [
+            "Conjunto ordenado de pasos",
+            "Un programa dañado",
+            "Un dispositivo físico"
+          ],
+          "puntos": 20
+        },
+        {
+          "respuestaCorrecta": 0,
+          "id": 3,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Cuál lenguaje facilitó el aprendizaje inicial de programación?",
+          "opciones": [
+            "BASIC",
+            "BIOS",
+            "HTML"
+          ],
+          "puntos": 20
+        },
+        {
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "id": 4,
+          "pregunta": "¿Qué habilidad desarrolla la programación?",
+          "tipo": "opción_multiple",
+          "opciones": [
+            "Memorización",
+            "Pensamiento lógico",
+            "Uso del teclado"
+          ]
+        },
+        {
+          "puntos": 20,
+          "id": 5,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Cuál es un proyecto posible con programación básica?",
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "Calculadora",
+            "Sistema operativo",
+            "Red de internet"
+          ]
+        },
+        {
+          "opciones": [
+            "Para usar redes sociales",
+            "Para adaptarse al mundo tecnológico",
+            "Para escribir más rápido"
+          ],
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Por qué es importante aprender programación hoy?",
+          "puntos": 20,
+          "id": 6,
+          "tipo": "opción_multiple"
+        }
+      ]
+    },
+    "2do_modulo_1": {
+      "contenido": "<h3>¿Qué es un algoritmo?</h3><p>Un algoritmo es un conjunto finito y ordenado de pasos que permiten resolver un problema o realizar una tarea específica.</p><h3>Características:</h3><ul><li>Debe tener inicio y fin</li><li>Sus pasos son claros y precisos</li><li>Produce siempre un resultado</li></ul>",
+      "preguntas": [
+        {
+          "opciones": [
+            "Puede ser infinito",
+            "Tiene pasos ordenados y finitos",
+            "Solo se usa en matemáticas"
+          ],
+          "id": 1,
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Cuál es una característica esencial de un algoritmo?",
+          "puntos": 20
+        },
+        {
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Qué aporta la lógica de programación al desarrollo de software?",
+          "tipo": "opción_multiple",
+          "id": 2,
+          "opciones": [
+            "Mejora el diseño gráfico",
+            "Permite resolver problemas de forma estructurada",
+            "Aumenta la velocidad del internet"
+          ]
+        },
+        {
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Cuál de los siguientes es un ejemplo de estructura lógica?",
+          "tipo": "opción_multiple",
+          "opciones": [
+            "Monitor",
+            "Condicional (if)",
+            "Teclado"
+          ],
+          "id": 3,
+          "puntos": 20
+        },
+        {
+          "opciones": [
+            "Para evitar interpretaciones incorrectas",
+            "Para ocupar más memoria",
+            "Para ser más largo"
+          ],
+          "puntos": 20,
+          "pregunta": "¿Por qué un algoritmo debe ser preciso?",
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "id": 4
+        },
+        {
+          "puntos": 20,
+          "opciones": [
+            "Diseño de carteles",
+            "Desarrollo de aplicaciones",
+            "Edición de fotografías"
+          ],
+          "pregunta": "¿En qué tipo de proyecto es indispensable usar algoritmos?",
+          "id": 5,
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple"
+        },
+        {
+          "tipo": "opción_multiple",
+          "pregunta": "¿Qué ocurre si un algoritmo no tiene un fin definido?",
+          "id": 6,
+          "opciones": [
+            "Puede generar errores o bucles infinitos",
+            "Se ejecuta más rápido",
+            "No afecta su funcionamiento"
+          ],
+          "respuestaCorrecta": 0,
+          "puntos": 20
+        }
+      ],
+      "puntajeMinimo": 70,
+      "tiempoLimite": 1800,
+      "titulo": "Algoritmos y Lógica de Programación",
+      "año": "2do",
+      "orden": 1,
+      "metadata": {
+        "creadorId": "system",
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 627000000
+        }
+      },
+      "dificultad": "intermedio",
+      "descripcion": "Fundamentos de algoritmos y pensamiento lógico para programación",
+      "id": "2do_modulo_1",
+      "habilitado": true,
+      "duracionEstimada": 90
+    },
+    "2do_modulo_2": {
+      "preguntas": [
+        {
+          "opciones": [
+            "Aumentar el tamaño del código",
+            "Reutilizar y organizar mejor el código",
+            "Ejecutar el programa más lento"
+          ],
+          "tipo": "opción_multiple",
+          "pregunta": "¿Cuál es la principal ventaja de usar funciones en un programa?",
+          "respuestaCorrecta": 1,
+          "puntos": 20,
+          "id": 1
+        },
+        {
+          "respuestaCorrecta": 0,
+          "puntos": 20,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Qué característica define a la programación orientada a objetos?",
+          "id": 2,
+          "opciones": [
+            "Uso de clases y objetos",
+            "Uso exclusivo de variables",
+            "Eliminación de funciones"
+          ]
+        },
+        {
+          "pregunta": "¿Cuál de estos lenguajes es considerado de nivel medio/alto?",
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "id": 3,
+          "opciones": [
+            "HTML",
+            "Python",
+            "BIOS"
+          ]
+        },
+        {
+          "opciones": [
+            "Repetir instrucciones automáticamente",
+            "Mostrar errores del sistema",
+            "Crear hardware"
+          ],
+          "puntos": 20,
+          "pregunta": "¿Para qué se utilizan los bucles en programación?",
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "id": 4
+        },
+        {
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "id": 5,
+          "respuestaCorrecta": 1,
+          "opciones": [
+            "Escribir un documento",
+            "Un sistema con base de datos",
+            "Encender una computadora"
+          ],
+          "pregunta": "¿Qué tipo de proyecto requiere programación media avanzada?"
+        },
+        {
+          "respuestaCorrecta": 0,
+          "puntos": 20,
+          "pregunta": "¿Qué habilidad es clave en esta etapa de programación?",
+          "opciones": [
+            "Resolver problemas lógicos complejos",
+            "Memorizar comandos sin entenderlos",
+            "Solo copiar código"
+          ],
+          "tipo": "opción_multiple",
+          "id": 6
+        }
+      ],
+      "contenido": "<h3>Características Principales</h3><p>Esta etapa de la programación se caracteriza por el uso de estructuras avanzadas y una mejor organización del código.</p><ul><li>Uso de funciones y módulos reutilizables</li><li>Condicionales y bucles complejos</li><li>Introducción a la programación orientada a objetos</li></ul>",
+      "año": "2do",
+      "puntajeMinimo": 70,
+      "titulo": "Programación Media Avanzada",
+      "id": "2do_modulo_2",
+      "orden": 2,
+      "duracionEstimada": 90,
+      "habilitado": true,
+      "metadata": {
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 627000000
+        },
+        "creadorId": "system"
+      },
+      "tiempoLimite": 1800,
+      "descripcion": "Estructuras avanzadas y buenas prácticas en programación",
+      "dificultad": "intermedio"
+    },
+    "2do_modulo_3": {
+      "puntajeMinimo": 70,
+      "dificultad": "intermedio",
+      "contenido": "<h3>Historia y evolución</h3><p>El diseño web nació con la creación de HTML en 1991 por Tim Berners-Lee. Posteriormente CSS permitió separar el contenido del diseño.</p><h3>Características:</h3><ul><li>HTML define la estructura</li><li>CSS controla colores y estilos</li><li>Evolución hacia diseño responsive</li></ul>",
+      "descripcion": "Creación de páginas web con HTML y CSS",
+      "duracionEstimada": 90,
+      "año": "2do",
+      "id": "2do_modulo_3",
+      "metadata": {
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 628000000
+        },
+        "creadorId": "system"
+      },
+      "habilitado": true,
+      "preguntas": [
+        {
+          "id": 1,
+          "opciones": [
+            "Estructurar el contenido",
+            "Aplicar colores",
+            "Ejecutar programas"
+          ],
+          "tipo": "opción_multiple",
+          "pregunta": "¿Cuál es la función principal de HTML?",
+          "puntos": 20,
+          "respuestaCorrecta": 0
+        },
+        {
+          "puntos": 20,
+          "pregunta": "¿Qué permite CSS dentro de una página web?",
+          "id": 2,
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple",
+          "opciones": [
+            "Crear bases de datos",
+            "Diseñar y dar estilo visual",
+            "Programar funciones"
+          ]
+        },
+        {
+          "puntos": 20,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Qué ventaja tiene separar HTML y CSS?",
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "Facilita mantenimiento y diseño",
+            "Hace la web más lenta",
+            "Elimina errores automáticamente"
+          ],
+          "id": 3
+        },
+        {
+          "pregunta": "¿Qué etiqueta HTML es semántica?",
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "opciones": [
+            "<header>",
+            "<div>",
+            "<span>"
+          ],
+          "puntos": 20,
+          "id": 4
+        },
+        {
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "Adaptarse a distintos dispositivos",
+            "Usar solo computadoras",
+            "Aumentar velocidad de internet"
+          ],
+          "tipo": "opción_multiple",
+          "pregunta": "¿Qué significa diseño responsive?",
+          "id": 5,
+          "puntos": 20
+        },
+        {
+          "id": 6,
+          "puntos": 20,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Dónde se implementa el diseño web básico?",
+          "opciones": [
+            "Sitios educativos y empresariales",
+            "Solo en videojuegos",
+            "En sistemas operativos"
+          ],
+          "respuestaCorrecta": 0
+        }
+      ],
+      "orden": 3,
+      "titulo": "Diseño Web Básico (HTML y CSS)",
+      "tiempoLimite": 1800
+    },
+    "2do_modulo_4": {
+      "descripcion": "Protección de sistemas y datos informáticos",
+      "puntajeMinimo": 70,
+      "año": "2do",
+      "tiempoLimite": 1800,
+      "id": "2do_modulo_4",
+      "habilitado": true,
+      "dificultad": "intermedio",
+      "duracionEstimada": 90,
+      "orden": 4,
+      "metadata": {
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 628000000
+        },
+        "creadorId": "system"
+      },
+      "contenido": "<h3>Historia</h3><p>La seguridad informática surge en la década de 1970 cuando las computadoras comenzaron a conectarse en redes.</p><h3>3 Pilares Importantes:</h3><ul><li>Confidencialidad: solo usuarios autorizados acceden</li><li>Integridad: datos no alterados sin permiso</li><li>Disponibilidad: información accesible cuando se necesita</li></ul>",
+      "preguntas": [
+        {
+          "tipo": "opción_multiple",
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Cuál es el objetivo principal de la seguridad informática?",
+          "id": 1,
+          "opciones": [
+            "Aumentar la velocidad del sistema",
+            "Proteger datos y sistemas",
+            "Crear software"
+          ],
+          "puntos": 20
+        },
+        {
+          "id": 2,
+          "puntos": 20,
+          "pregunta": "¿Qué principio garantiza que la información no sea alterada?",
+          "respuestaCorrecta": 1,
+          "opciones": [
+            "Disponibilidad",
+            "Integridad",
+            "Accesibilidad"
+          ],
+          "tipo": "opción_multiple"
+        },
+        {
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "Phishing",
+            "Antivirus",
+            "Firewall"
+          ],
+          "id": 3,
+          "puntos": 20,
+          "pregunta": "¿Cuál de los siguientes es un ataque informático?",
+          "tipo": "opción_multiple"
+        },
+        {
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "Usar letras, números y símbolos",
+            "Usar fechas de nacimiento",
+            "Repetir la misma contraseña"
+          ],
+          "puntos": 20,
+          "tipo": "opción_multiple",
+          "id": 4,
+          "pregunta": "¿Qué práctica mejora la seguridad de una contraseña?"
+        },
+        {
+          "tipo": "opción_multiple",
+          "respuestaCorrecta": 0,
+          "pregunta": "¿En qué entorno es MÁS crítica la seguridad informática?",
+          "id": 5,
+          "puntos": 20,
+          "opciones": [
+            "Bancos y sistemas financieros",
+            "Juegos offline",
+            "Calculadoras"
+          ]
+        },
+        {
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Cuál es un proyecto relacionado con seguridad informática?",
+          "id": 6,
+          "opciones": [
+            "Editor de texto",
+            "Sistema de autenticación",
+            "Reproductor de música"
+          ]
+        }
+      ],
+      "titulo": "Seguridad Informática"
+    },
+    "2do_modulo_5": {
+      "titulo": "Bases de Datos Básicas",
+      "preguntas": [
+        {
+          "opciones": [
+            "Diseñar páginas web",
+            "Almacenar y organizar información",
+            "Crear hardware"
+          ],
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Cuál es la función principal de una base de datos?",
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "id": 1
+        },
+        {
+          "puntos": 20,
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "Relacional",
+            "Manual",
+            "Física"
+          ],
+          "tipo": "opción_multiple",
+          "id": 2,
+          "pregunta": "¿Qué tipo de base de datos es más utilizada actualmente?"
+        },
+        {
+          "id": 3,
+          "puntos": 20,
+          "opciones": [
+            "Dibujar imágenes",
+            "Gestión de registros escolares",
+            "Encender computadoras"
+          ],
+          "pregunta": "¿Cuál de estos es un uso real de bases de datos?",
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple"
+        },
+        {
+          "id": 4,
+          "respuestaCorrecta": 1,
+          "puntos": 20,
+          "opciones": [
+            "Color de la base",
+            "Control de acceso",
+            "Tamaño del monitor"
+          ],
+          "tipo": "opción_multiple",
+          "pregunta": "¿Qué característica permite proteger la información?"
+        },
+        {
+          "puntos": 20,
+          "opciones": [
+            "Bancos",
+            "Escuelas",
+            "En una calculadora simple"
+          ],
+          "id": 5,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Dónde NO se utilizan bases de datos?",
+          "respuestaCorrecta": 2
+        },
+        {
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "Sistema de notas estudiantiles",
+            "Documento en Word",
+            "Imagen JPG"
+          ],
+          "puntos": 20,
+          "pregunta": "¿Qué proyecto requiere obligatoriamente una base de datos?",
+          "tipo": "opción_multiple",
+          "id": 6
+        }
+      ],
+      "año": "2do",
+      "habilitado": true,
+      "id": "2do_modulo_5",
+      "orden": 5,
+      "metadata": {
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 628000000
+        },
+        "creadorId": "system"
+      },
+      "tiempoLimite": 1800,
+      "contenido": "<h3>Historia y Evolución</h3><p>Las bases de datos surgieron para reemplazar los archivos físicos y digitales desorganizados.</p><h3>Características Principales:</h3><ul><li>Organización estructurada de datos</li><li>Acceso rápido a la información</li><li>Seguridad y control de usuarios</li></ul>",
+      "dificultad": "intermedio",
+      "descripcion": "Fundamentos de bases de datos y gestión de información",
+      "duracionEstimada": 90,
+      "puntajeMinimo": 70
+    },
+    "2do_modulo_6": {
+      "duracionEstimada": 90,
+      "año": "2do",
+      "id": "2do_modulo_6",
+      "tiempoLimite": 1800,
+      "puntajeMinimo": 70,
+      "descripcion": "Paradigma de programación basado en objetos y clases",
+      "habilitado": true,
+      "preguntas": [
+        {
+          "opciones": [
+            "Una función matemática",
+            "Una entidad con atributos y métodos",
+            "Un error del sistema"
+          ],
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "pregunta": "¿Qué representa un objeto en POO?",
+          "respuestaCorrecta": 1,
+          "id": 1
+        },
+        {
+          "tipo": "opción_multiple",
+          "id": 2,
+          "opciones": [
+            "Encapsulamiento",
+            "Herencia",
+            "Compilación"
+          ],
+          "respuestaCorrecta": 1,
+          "puntos": 20,
+          "pregunta": "¿Qué principio permite reutilizar código?"
+        },
+        {
+          "opciones": [
+            "Un molde para crear objetos",
+            "Un tipo de dato primitivo",
+            "Un archivo del sistema"
+          ],
+          "puntos": 20,
+          "pregunta": "¿Qué es una clase?",
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "id": 3
+        },
+        {
+          "puntos": 20,
+          "tipo": "opción_multiple",
+          "opciones": [
+            "Proteger los datos internos",
+            "Eliminar clases",
+            "Ejecutar programas más rápido"
+          ],
+          "pregunta": "¿Qué permite el encapsulamiento?",
+          "respuestaCorrecta": 0,
+          "id": 4
+        },
+        {
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "pregunta": "¿Qué significa polimorfismo?",
+          "opciones": [
+            "Copiar clases",
+            "Un mismo método con distintos comportamientos",
+            "Guardar datos en archivos"
+          ],
+          "tipo": "opción_multiple",
+          "id": 5
+        },
+        {
+          "puntos": 20,
+          "pregunta": "¿En qué tipo de proyectos se recomienda usar POO?",
+          "opciones": [
+            "Proyectos grandes y escalables",
+            "Programas muy simples",
+            "Solo cálculos matemáticos"
+          ],
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "id": 6
+        }
+      ],
+      "dificultad": "intermedio",
+      "metadata": {
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 628000000
+        },
+        "creadorId": "system"
+      },
+      "titulo": "Programación Orientada a Objetos (POO)",
+      "contenido": "<h3>Historia de la POO</h3><p>La POO surge en los años 60 con el lenguaje Simula y se populariza en los años 80 y 90 con lenguajes como C++, Java y Python.</p><h3>Características principales:</h3><ul><li>Encapsulamiento: proteger datos</li><li>Herencia: reutilizar código</li><li>Polimorfismo: comportamientos distintos</li></ul>",
+      "orden": 6
+    },
+    "2do_modulo_7": {
+      "año": "2do",
+      "preguntas": [
+        {
+          "puntos": 20,
+          "tipo": "opción_multiple",
+          "id": 1,
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "ARPANET",
+            "Ethernet",
+            "Internet Explorer"
+          ],
+          "pregunta": "¿Cuál fue la primera red informática?"
+        },
+        {
+          "opciones": [
+            "Seguridad",
+            "Compartición de recursos",
+            "Programación"
+          ],
+          "tipo": "opción_multiple",
+          "pregunta": "¿Qué característica permite compartir impresoras?",
+          "id": 2,
+          "puntos": 20,
+          "respuestaCorrecta": 1
+        },
+        {
+          "id": 3,
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "En una institución educativa",
+            "Entre países",
+            "En satélites"
+          ],
+          "pregunta": "¿Dónde es más común una red LAN?",
+          "puntos": 20,
+          "tipo": "opción_multiple"
+        },
+        {
+          "respuestaCorrecta": 0,
+          "opciones": [
+            "TCP/IP",
+            "HTML",
+            "BIOS"
+          ],
+          "pregunta": "¿Qué protocolo es fundamental en Internet?",
+          "puntos": 20,
+          "tipo": "opción_multiple",
+          "id": 4
+        },
+        {
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "opciones": [
+            "Vertical",
+            "Estrella",
+            "Binaria"
+          ],
+          "pregunta": "¿Cuál es una topología de red?",
+          "id": 5,
+          "respuestaCorrecta": 1
+        },
+        {
+          "id": 6,
+          "pregunta": "¿Qué protege la seguridad en redes?",
+          "respuestaCorrecta": 0,
+          "puntos": 20,
+          "opciones": [
+            "La información",
+            "El monitor",
+            "El teclado"
+          ],
+          "tipo": "opción_multiple"
+        }
+      ],
+      "duracionEstimada": 90,
+      "orden": 7,
+      "descripcion": "Conceptos fundamentales de redes y comunicación entre dispositivos",
+      "puntajeMinimo": 70,
+      "habilitado": true,
+      "titulo": "Redes Informáticas Básicas",
+      "metadata": {
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 628000000
+        },
+        "creadorId": "system"
+      },
+      "contenido": "<h3>Historia de las Redes</h3><p>Las redes informáticas surgieron en la década de 1960 con proyectos militares y universitarios como ARPANET.</p><h3>Características Principales:</h3><ul><li>Interconectividad</li><li>Compartición de recursos</li><li>Comunicación rápida</li></ul>",
+      "id": "2do_modulo_7",
+      "tiempoLimite": 1800,
+      "dificultad": "intermedio"
+    },
+    "2do_modulo_8": {
+      "orden": 8,
+      "contenido": "<h3>Características</h3><p>El pensamiento computacional se basa en procesos mentales que facilitan la resolución eficiente de problemas.</p><ul><li>Descomposición de problemas</li><li>Reconocimiento de patrones</li><li>Abstracción de información</li><li>Diseño de algoritmos</li></ul>",
+      "titulo": "Pensamiento Computacional y Resolución de Problemas",
+      "dificultad": "intermedio",
+      "tiempoLimite": 1800,
+      "habilitado": true,
+      "duracionEstimada": 90,
+      "puntajeMinimo": 70,
+      "descripcion": "Desarrollo del pensamiento lógico para resolver problemas complejos",
+      "id": "2do_modulo_8",
+      "metadata": {
+        "fechaCreacion": {
+          "_seconds": 1767466719,
+          "_nanoseconds": 628000000
+        },
+        "creadorId": "system"
+      },
+      "año": "2do",
+      "preguntas": [
+        {
+          "id": 1,
+          "respuestaCorrecta": 1,
+          "puntos": 20,
+          "opciones": [
+            "Memorizar instrucciones",
+            "Resolver problemas de forma lógica y estructurada",
+            "Usar computadoras avanzadas"
+          ],
+          "pregunta": "¿Cuál es el objetivo principal del pensamiento computacional?",
+          "tipo": "opción_multiple"
+        },
+        {
+          "opciones": [
+            "Descomposición",
+            "Abstracción",
+            "Automatización"
+          ],
+          "pregunta": "¿Qué proceso consiste en dividir un problema grande en partes pequeñas?",
+          "id": 2,
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "puntos": 20
+        },
+        {
+          "respuestaCorrecta": 1,
+          "id": 3,
+          "pregunta": "¿Cuál de los siguientes NO es un pilar del pensamiento computacional?",
+          "opciones": [
+            "Reconocimiento de patrones",
+            "Memorización repetitiva",
+            "Algoritmos"
+          ],
+          "tipo": "opción_multiple",
+          "puntos": 20
+        },
+        {
+          "opciones": [
+            "Bill Gates",
+            "Jeannette Wing",
+            "Steve Jobs"
+          ],
+          "puntos": 20,
+          "respuestaCorrecta": 1,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Quién impulsó el concepto moderno del pensamiento computacional?",
+          "id": 4
+        },
+        {
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "opciones": [
+            "Un conjunto ordenado de pasos para resolver un problema",
+            "Un lenguaje de programación",
+            "Un dispositivo electrónico"
+          ],
+          "id": 5,
+          "pregunta": "¿Qué es un algoritmo?"
+        },
+        {
+          "opciones": [
+            "Solo en matemáticas",
+            "En múltiples disciplinas y problemas reales",
+            "Únicamente en informática"
+          ],
+          "pregunta": "¿En qué área se aplica directamente el pensamiento computacional?",
+          "tipo": "opción_multiple",
+          "puntos": 20,
+          "id": 6,
+          "respuestaCorrecta": 1
+        },
+        {
+          "respuestaCorrecta": 0,
+          "tipo": "opción_multiple",
+          "pregunta": "¿Cuál es un ejemplo de proyecto que usa pensamiento computacional?",
+          "puntos": 20,
+          "opciones": [
+            "Programación de un robot educativo",
+            "Copiar texto manualmente",
+            "Dibujar sin planificación"
+          ],
+          "id": 7
+        }
+      ]
+    }
+  }
+}

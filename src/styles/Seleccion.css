@@ -1,0 +1,249 @@
+/* Contenedor principal */
+.year-selection-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.selector-wrapper {
+  background: white;
+  border-radius: 20px;
+  padding: 40px;
+  width: 100%;
+  max-width: 900px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Header */
+.selector-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.selector-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.selector-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+/* Grid de tarjetas */
+.selector-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+/* Tarjeta individual */
+.role-card {
+  background: #f8f9fa;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  position: relative;
+  cursor: pointer;
+}
+
+.role-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-color: #4a6cf7;
+}
+
+.role-card.card-disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.role-card.card-disabled:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+/* Círculo con número */
+.level-circle {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #4a6cf7, #6a11cb);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  color: white;
+  font-size: 2.2rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.level-tag {
+  position: absolute;
+  bottom: -25px;
+  background: #4a6cf7;
+  color: white;
+  padding: 3px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Contenido de la tarjeta */
+.role-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  margin: 25px 0 15px;
+}
+
+.role-desc {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-size: 1rem;
+}
+
+/* Botón */
+.role-btn {
+  background: linear-gradient(135deg, #4a6cf7, #6a11cb);
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.role-btn:hover {
+  background: linear-gradient(135deg, #3a5ce5, #5a0bcb);
+  transform: scale(1.05);
+}
+
+.role-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.role-btn span {
+  font-size: 1.2rem;
+}
+
+/* Overlay para año bloqueado */
+.locked-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  z-index: 2;
+}
+
+.lock-icon {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #4a6cf7;
+}
+
+.lock-text {
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: 600;
+  background: rgba(74, 108, 247, 0.1);
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+/* Panel de información del usuario */
+.user-info-panel {
+  background: #f1f5ff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.user-badge {
+  display: inline-block;
+  background: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  margin: 0 10px 10px 0;
+  font-size: 0.9rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.user-badge strong {
+  color: #4a6cf7;
+  margin-right: 5px;
+}
+
+.progress-info {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.progress-label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.progress-bar-container {
+  height: 8px;
+  background: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4a6cf7, #6a11cb);
+  border-radius: 4px;
+  transition: width 0.5s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .selector-wrapper {
+    padding: 25px;
+  }
+  
+  .selector-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .role-card {
+    padding: 25px;
+  }
+  
+  .selector-header h1 {
+    font-size: 2rem;
+  }
+}

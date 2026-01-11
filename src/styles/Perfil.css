@@ -1,0 +1,175 @@
+.profile-form{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+
+.profile-form .form-group{
+  display:flex;
+  flex-direction:column;
+}
+
+.profile-form label{
+  font-weight:600;
+  margin-bottom:6px;
+}
+
+.profile-form input{
+  padding:10px 14px;
+  border-radius:8px;
+  border:1px solid var(--border);
+  background:var(--card);
+  color:var(--text);
+}
+
+.profile-form input:disabled{
+  background:#e5e7eb;
+  color:#6b7280;
+  cursor:not-allowed;
+}
+
+@media(max-width:768px){
+  .profile-form{
+    grid-template-columns:1fr;
+  }
+}
+
+/* ===== FORMULARIO PERFIL ===== */
+.profile-form{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+
+.profile-form .form-group{
+  display:flex;
+  flex-direction:column;
+}
+
+.profile-form label{
+  font-weight:600;
+  margin-bottom:6px;
+}
+
+.profile-form input{
+  padding:10px 14px;
+  border-radius:8px;
+  border:1px solid var(--border);
+  background:var(--card);
+  color:var(--text);
+}
+
+.profile-form input:disabled{
+  background:#e5e7eb;
+  color:#6b7280;
+  cursor:not-allowed;
+}
+
+/* ===== DASHBOARD BASE ===== */
+.dashboard{
+  display:flex;
+  min-height:100vh;
+}
+
+/* ===== SIDEBAR ===== */
+.sidebar{
+  width:260px;
+  flex-shrink:0;
+}
+
+/* ===== CONTENIDO ===== */
+.content{
+  flex:1;
+  padding:20px;
+}
+
+/* ===== RESPONSIVE TABLET ===== */
+@media (max-width: 1024px){
+  .sidebar{
+    width:220px;
+  }
+}
+
+/* ===== RESPONSIVE MÓVIL ===== */
+@media (max-width:768px){
+
+  /* Dashboard en columna */
+  .dashboard{
+    flex-direction:column;
+  }
+
+  /* Sidebar arriba */
+  .sidebar{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:15px;
+  }
+
+  .sidebar .profile{
+    text-align:center;
+  }
+
+  .sidebar img{
+    width:70px;
+    height:70px;
+  }
+
+  .menu{
+    width:100%;
+  }
+
+  .menu button{
+    width:100%;
+  }
+
+  /* Contenido */
+  .content{
+    padding:15px;
+  }
+
+  /* Formulario en una sola columna */
+  .profile-form{
+    grid-template-columns:1fr;
+  }
+
+  /* Card más compacta */
+  .card{
+    padding:20px;
+  }
+}
+
+/* ===== MÓVILES PEQUEÑOS ===== */
+@media (max-width:480px){
+  h2{
+    font-size:1.2rem;
+  }
+
+  .profile-form input{
+    padding:9px 12px;
+  }
+
+  .btn{
+    font-size:0.9rem;
+  }
+}
+
+.profile-photo-box {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2563eb;
+  margin-bottom: 10px;
+}
+
+.upload-btn {
+  display: inline-block;
+  cursor: pointer;
+}
