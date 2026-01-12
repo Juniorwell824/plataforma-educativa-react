@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter  as Router, Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import PrivateRoute from './components/common/PrivateRoute';
 
@@ -129,7 +129,7 @@ function App() {
               <AdminLayout />
             </PrivateRoute>
           }>
-            <Route index element={<Navigate to="/admin/dashboard" />} />
+            <Route index element={<Navigate to="dashboard" />} />
             <Route path="dashboard" element={<AdminDashboard />} />
             <Route path="students" element={<AdminStudents />} />
             <Route path="students/:id" element={<AdminEditStudent />} />
